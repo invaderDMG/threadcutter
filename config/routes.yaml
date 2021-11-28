@@ -1,0 +1,3 @@
+app_lucky_number:
+  path: /thread/index
+  controller: App\Controller\ThreadController::index
