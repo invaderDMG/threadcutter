@@ -1,3 +1,9 @@
-
-<h1>Hello {{ user_first_name }}!</h1>
-<p>You have {{ notifications|length }} new notifications.</p>
+{% extends "base.html.twig" %}
+{% block title %}Hello {{ user_first_name }}!{% endblock %}
+{% block body %}
+    <div id="editor">
+        <p>Hello World!</p>
+        <p>Some initial <strong>bold</strong> text</p>
+        <p><br></p>
+    </div>
+{% endblock %}
