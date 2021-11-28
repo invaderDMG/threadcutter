@@ -1,3 +1,4 @@
+@import '~quill/dist/quill.snow.css';
 body {
-    background-color: lightgray;
+    background-color: white;
 }
